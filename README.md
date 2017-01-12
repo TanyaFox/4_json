@@ -1,19 +1,8 @@
 # Prettify JSON
-
-[TODO. There will be project description]
+Script makes your json data pretty to read. 
 
 # Quickstart
-
-[TODO]
-
-Example of script launch on Linux, Python 3.5:
-
-```#!bash
-
-$ python pprint_json.py <path to file>
-# TODO add output example
-
-```
+Run the script and pull filepath as an input parametr.
 
 # Project Goals
 
