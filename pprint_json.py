@@ -14,14 +14,11 @@ def pretty_print_json(data):
 
 
 if __name__ == '__main__':
-    try:
-        while True:
-            print("Enter your filepath:")
-            jsonpath = input()
-            if jsonpath != None:
-                jsondata = load_data(jsonpath)
-                if jsondata:
-                    pretty_print_json(jsondata)
-                    break
-    except:
-        print("Unknown error occured")
+    while True:
+        print("Enter your filepath:")
+        jsonpath = input()
+        if jsonpath != None:
+            jsondata = load_data(jsonpath)
+            if jsondata:
+                pretty_print_json(jsondata)
+                break
